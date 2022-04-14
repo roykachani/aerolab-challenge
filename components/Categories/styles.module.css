@@ -1,0 +1,27 @@
+.categories_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 0px;
+	background: #ffffff;
+	border: 1px solid #dae4f2;
+	border-radius: 8px;
+}
+.categories_options {
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 24px;
+}
+.categories_options:hover {
+	background: #f5f9ff;
+}
+
+.categories_option {
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+}

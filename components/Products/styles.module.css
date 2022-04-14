@@ -1,0 +1,227 @@
+.products_main_container {
+	position: absolute;
+	height: 2598px;
+	left: 228px;
+	right: 228px;
+	top: 0px;
+}
+.products_container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.products_container_title {
+	margin: 40px 0;
+}
+.title_h2 {
+	color: black;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 80%;
+}
+.title_h2_s {
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.products_container_controls {
+	width: 100%;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box_a {
+	width: 1151px;
+	height: 59px;
+	display: flex;
+	align-items: center;
+}
+
+.categories_container {
+	position: absolute;
+	width: 256px;
+	height: 271px;
+	left: calc(50% - 248px / 2 - 503px);
+	top: 188px;
+	z-index: 10;
+}
+
+/*product*/
+
+.main_products_content {
+	width: 1464px;
+	height: auto;
+	display: flex;
+	margin: 16px 0;
+	justify-content: center;
+}
+
+.products_content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product_box {
+	width: 348px;
+	height: 506px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+
+.product_card {
+	width: 348px;
+	height: 431px;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+}
+
+.product_image_container {
+	width: 348px;
+	height: 344.92px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #dae4f2;
+	border-radius: 16px 16px 0px 0px;
+	-webkit-border-radius: 16px 16px 0px 0px;
+	-moz-border-radius: 16px 16px 0px 0px;
+	-ms-border-radius: 16px 16px 0px 0px;
+	-o-border-radius: 16px 16px 0px 0px;
+}
+
+.img_product {
+	z-index: -1;
+}
+.icon_redeem_product {
+	z-index: 0;
+}
+
+.product_detail {
+	width: 348px;
+	height: 88px;
+	padding: 16px 24px 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #dae4f2;
+	border-radius: 0px 0px 16px 16px;
+	-webkit-border-radius: 0px 0px 16px 16px;
+	-moz-border-radius: 0px 0px 16px 16px;
+	-ms-border-radius: 0px 0px 16px 16px;
+	-o-border-radius: 0px 0px 16px 16px;
+}
+
+.title_h3 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	color: #252f3d;
+}
+.categry_text {
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #7c899c;
+}
+
+.redeem_btn_box {
+	width: 100%;
+	height: 59px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_redeem {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	padding: 16px 24px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	border: none;
+}
+.btn_redeem_h:hover {
+	background: linear-gradient(102.47deg, #1667d9 -5.34%, #f279f2 106.58%);
+}
+.btn_processing {
+	background: linear-gradient(
+		102.47deg,
+		rgba(23, 111, 235, 0.7) -5.34%,
+		rgba(255, 128, 255, 0.7) 106.58%
+	);
+}
+.btn_redeem_desabled {
+	background: #e6edf7;
+	color: #7c899c;
+	cursor: not-allowed;
+}
+
+.btn_redeem_text {
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+.btn_text_span {
+	margin-left: 8px;
+}
+
+/*paginator*/
+
+.products_container_paginator {
+	width: 1464px;
+	height: 64px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.number_of_products {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+}
+
+.empty {
+	width: 259px;
+	height: 64px;
+}
+.number_products {
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}

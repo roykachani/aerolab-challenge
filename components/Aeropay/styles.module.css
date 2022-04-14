@@ -1,0 +1,247 @@
+.aeropay_main {
+	position: relative;
+	width: 1464px;
+	display: flex;
+	justify-content: center;
+}
+
+.aeropay_container {
+	background: #fff;
+	z-index: 20;
+	position: absolute;
+	width: 312px;
+	height: 404px;
+	right: 228px;
+	top: 96px;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border: 1px solid #dae4f2;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+}
+.aeropay_container:hover {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+.aeropay_header {
+	width: 100%;
+	padding: 16px 24px;
+	border-bottom: 1px solid #dae4f2;
+}
+.aeropay_title_content {
+	width: 264px;
+	height: 27px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.aeropay_title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	color: #252f3d;
+}
+.aeropay_close {
+	cursor: pointer;
+}
+
+.aeropay_content {
+	width: 100%;
+	height: 346px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aeropay_card_amout {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.aerocard {
+	background-color: #252f3d;
+	width: 264px;
+	height: 148px;
+	margin: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+	-webkit-filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+}
+
+.aerocard_content {
+	z-index: 20;
+	width: 232px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.content_top {
+	height: 27px;
+	margin-top: 16px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #f5f9ff;
+}
+.content_bottom {
+	height: 21px;
+	margin-bottom: 16px;
+	font-size: 14px;
+	line-height: 150%;
+	color: #f5f9ff;
+}
+
+.amount_box {
+	width: 264px;
+	height: 110px;
+	margin: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.amount_content_top {
+	width: 100%;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn_box_amount {
+	width: 85px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_amount {
+	width: 85px;
+	height: 100%;
+	padding: 4px 16px;
+	background: #e6f0ff;
+	border: none;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	cursor: pointer;
+}
+
+.amount_text {
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.amount_text_selected {
+	text-fill-color: #f5f9ff;
+	-webkit-text-fill-color: #f5f9ff;
+}
+.amount_select {
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+}
+
+.amount_content_bottom {
+	width: 264px;
+	height: 51px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_box_add_amount {
+	width: 100%;
+	height: 100%;
+}
+.btn_add_amount {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 16px;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 16px;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 150%;
+	color: #ffffff;
+}
+.btn_add_amount:hover,
+.btn_add_amount:active {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+	background: linear-gradient(102.47deg, #1667d9 -5.34%, #f279f2 106.58%);
+}
+
+.aero_logo1 {
+	display: flex;
+	justify-content: center;
+	margin: 8px;
+}
+
+/*wave aerocard*/
+
+.wavePattern_container {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	position: absolute;
+	z-index: -1;
+	width: 264px;
+	height: 148px;
+	left: 0px;
+	top: 0px;
+	background: #252f3d;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.wavePatternA {
+	position: absolute;
+	z-index: -1;
+	width: 600px;
+	height: 148px;
+	left: -120.93px;
+	top: 48px;
+	background-image: url('../../assets/illustrations/single-wave-pattern.svg');
+	transform: rotate(-4.26deg);
+	-webkit-transform: rotate(-4.26deg);
+	-moz-transform: rotate(-4.26deg);
+	-ms-transform: rotate(-4.26deg);
+	-o-transform: rotate(-4.26deg);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}
+
+.wavemask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #252f3d77;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+	z-index: 1;
+}

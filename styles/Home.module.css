@@ -1,116 +1,154 @@
-.container {
-  padding: 0 2rem;
+.landing_section {
+	max-width: 1920px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.landing_welcome {
+	width: 602px;
+	height: 577px;
+	position: absolute;
+	top: 240px;
+	left: 228px;
+}
+.welcome_box_text {
+	width: 100%;
+	height: 433px;
+}
+.box_title {
+	width: 100%;
+	height: 355px;
+}
+.title_span {
+	display: inline-block;
+	width: 523px;
+	height: 54px;
+	margin: 24px 0;
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+}
+.title_h4 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing: 0.24em;
+	color: #7c899c;
+}
+.title_h1 {
+	color: black;
+	font-size: 200px;
+	font-weight: 900;
+	line-height: 80%;
+}
+.title_h1_s {
+	display: inline-block;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.welcome_box_btn {
+	cursor: pointer;
+	margin: 64px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 318px;
+	height: 80px;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 24px;
+}
+.welcome_box_btn:hover {
+	background: linear-gradient(102.47deg, #1667d9 -5.34%, #f279f2 106.58%);
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+.btn_link_all_products {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 40px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.all_products_span {
+	margin: 0 4px;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: #ffffff;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.landing_ilustration {
+	position: absolute;
+	width: 897px;
+	height: 795px;
+	top: 45px;
+	right: 141px;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.ilustration_picture {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url('../assets/illustrations/hero-desktop.png');
+	background-position: center;
+	z-index: 1;
+	background-size: cover;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.background_ilustrtion {
+	position: absolute;
+	width: 722px;
+	height: 600px;
+	left: 88px;
+	top: 195px;
+	background: linear-gradient(
+		102.47deg,
+		rgba(23, 111, 235, 0.5) -5.34%,
+		rgba(255, 128, 255, 0.5) 106.58%
+	);
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+	border-radius: 104px;
+}
+.walkthrough_section {
+	position: absolute;
+	height: 721px;
+	width: 100%;
+	top: 952px;
 }
 
-.title,
-.description {
-  text-align: center;
+.product_section {
+	position: absolute;
+	height: 2598px;
+	left: 0px;
+	right: 0px;
+	top: 1833px;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.footer_section {
+	position: absolute;
+	height: 200px;
+	left: 0px;
+	right: 0px;
+	top: 4591px;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 80px;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
+/*
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+} */

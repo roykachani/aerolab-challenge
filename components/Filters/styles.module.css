@@ -1,0 +1,123 @@
+.filters_main_container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+/*filter*/
+.filter_container {
+	width: 353px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.filters_titles {
+	width: 81px;
+	height: 27px;
+	left: 0px;
+	top: 16px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+	margin-right: 16px;
+}
+
+.filter {
+	width: 256px;
+	height: 59px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.filter_input {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #dae4f2;
+	background: #fff;
+	padding: 16px 8px 16px 24px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+	cursor: pointer;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+}
+.filter_input:focus {
+	outline: none;
+}
+
+.input_span_icon {
+	color: black;
+}
+
+/*slash*/
+
+.slash_container {
+	width: 2px;
+	height: 59px;
+	background: #dae4f2;
+	margin: 0 40px;
+}
+
+/*sort*/
+.sort_container {
+	width: 616px;
+	height: 59px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.sort_row {
+	width: 529px;
+	height: 43px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sort_btn {
+	cursor: pointer;
+	width: 165px;
+	height: 43px;
+	padding: 8px 24px;
+	background: #e6f0ff;
+	border: none;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+.sort_selected {
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+}
+
+.sort_text {
+	font-size: 18px;
+	line-height: 150%;
+	color: #7c899c;
+	background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.sort_text_selected {
+	text-fill-color: #f5f9ff;
+	-webkit-text-fill-color: #f5f9ff;
+}
